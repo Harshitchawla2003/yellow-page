@@ -1,0 +1,28 @@
+:root {
+	--black: #000000;
+	--white: #ffffff;
+	--blue: #2f80ed;
+	--fontBase: 'Inter', sans-serif;
+	--body1-bold: 700 1rem/1.25rem var(--fontBase);
+	--body1-regular: 400 0.875rem/1.25rem var(--fontBase);
+}
+
+.body {
+	background: var(--blue);
+	margin: 0;
+	color: var(--black);
+	min-inline-size: 360px;
+}
+
+.wrapper {
+	padding: 24px;
+}
+
+@media screen and (min-width: 610px) {
+	.wrapper {
+		padding-block-start: 243px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
